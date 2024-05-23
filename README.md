@@ -11,3 +11,8 @@ This will produce a warning, which is treated as an error since the build has "t
 `com/example/jooq/tables/records/FooRecord.kt:33:15 This code uses error suppression for 'INAPPLICABLE_JVM_NAME'. While it might compile and work, the compiler behavior is UNSPECIFIED and WON'T BE PRESERVED.`
 
 To make the code compile, uncomment the `isKotlinSetterJvmNameAnnotationsOnIsPrefix` line in `build.gradle.kts`.
+
+Related issues in the Kotlin and jOOQ issue trackers:
+
+* https://youtrack.jetbrains.com/issue/KT-68456
+* https://github.com/jOOQ/jOOQ/issues/16700
